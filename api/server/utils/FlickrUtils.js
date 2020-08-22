@@ -9,7 +9,7 @@ class FlickrUtils {
     let result = (resolve, reject) => {
       let feedUrl = 'https://www.flickr.com/services/feeds/photos_public.gne';
 
-      if (tags !== null) {
+      if (tags != null) {
         feedUrl = `https://www.flickr.com/services/feeds/photos_public.gne?tags=${tags}`;
       }
 
