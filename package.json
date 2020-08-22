@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec babel-node ./api/index.js",
-    "test": "nyc --require @babel/register  mocha ./api/test --timeout 50000 --exit"
+    "test": "export NODE_ENV=test && nyc --require @babel/register  mocha ./api/test --timeout 50000 --exit"
   },
   "repository": "https://github.com/azie-ginanjar/flickr-photo-feed-backend.git",
   "author": "azie-ginanjar <xstepnort@gmail.com>",
