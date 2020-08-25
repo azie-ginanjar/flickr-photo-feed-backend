@@ -16,10 +16,6 @@
   "author": "azie-ginanjar <xstepnort@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "davefeedread": "^0.5.14",
-    "daveutils": "^0.4.56",
-    "express": "^4.17.1",
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.1",
     "@babel/node": "^7.10.5",
@@ -28,6 +24,11 @@
     "@babel/register": "^7.10.5",
     "@babel/runtime": "^7.11.2",
     "babel-loader": "^8.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "davefeedread": "^0.5.14",
+    "daveutils": "^0.4.56",
+    "express": "^4.17.1",
     "lodash": "^4.17.20"
   },
   "devDependencies": {

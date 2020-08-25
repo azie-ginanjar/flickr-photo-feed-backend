@@ -4,9 +4,12 @@ import flickrRoutes from './server/routes/FlickrRoutes';
 
 const app = express();
 const env = process.env.NODE_ENV || 'development';
+const cors = require('cors');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(cors());
+app.options('*', cors());
 
 let port = process.env.PORT || 8000;
 if (env === 'test'){
